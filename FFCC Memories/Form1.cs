@@ -56,38 +56,26 @@ namespace FFCC_Memories
 		
 		private void resetButtons()
 		{
-			KatA.Enabled = false;
-			KatFu.Enabled = false;
-			KatKa.Enabled = false;
-			KatKe.Enabled = false;
-			KatKi.Enabled = false;
-			KatKo.Enabled = false;
-			KatMa.Enabled = false;
-			KatMo.Enabled = false;
-			KatNe.Enabled = false;
-			KatO.Enabled = false;
-			KatRa.Enabled = false;
-			KatRe.Enabled = false;
-			KatRi.Enabled = false;
-			KatRu.Enabled = false;
-			KatSa.Enabled = false;
-			KatSe.Enabled = false;
-			KatShi.Enabled = false;
-			KatSo.Enabled = false;
-			KatTa.Enabled = false;
-			KatTe.Enabled = false;
-			KatU.Enabled = false;
-			HirA.Enabled = false;
-			HirI.Enabled = false;
-			HirMo.Enabled = false;
-			HirNa.Enabled = false;
-			HirO.Enabled = false;
-			HirSa.Enabled = false;
-			HirSe.Enabled = false;
-			HirSo.Enabled = false;
-			HirTo.Enabled = false;
-			Num1.Enabled = false;
-			Kanji.Enabled = false;
+			KatA.Visible = false;
+			KatFu.Visible = false;
+			KatKa.Visible = false;
+			KatKi.Visible = false;
+			KatMa.Visible = false;
+			KatO.Visible = false;
+			KatRu.Visible = false;
+			KatSe.Visible = false;
+			KatShi.Visible = false;
+			KatSo.Visible = false;
+			KatTe.Visible = false;
+			KatU.Visible = false;
+			HirA.Visible = false;
+			HirI.Visible = false;
+			HirNa.Visible = false;
+			HirO.Visible = false;
+			HirSe.Visible = false;
+			HirSo.Visible = false;
+			HirTo.Visible = false;
+			Kanji.Visible = false;
 		}
 
 		private void ButtonTest(string str, bool mod)
@@ -103,8 +91,11 @@ namespace FFCC_Memories
 			}
 			resetButtons();
 			AnswerTest();
-			current++;
-			nextButtons();
+			if (answer.Text == "?")
+			{
+				current++;
+				nextButtons();
+			}
 		}
 
 		private void AnswerTest()
@@ -170,162 +161,102 @@ namespace FFCC_Memories
 					{
 						case "Kanji":
 							{
-								Kanji.Enabled = true;
+								Kanji.Visible = true;
 								continue;
 							}
 						case "Kat-a":
 							{
-								KatA.Enabled = true;
+								KatA.Visible = true;
 								continue;
 							}
 						case "Kat-fu":
 							{
-								KatFu.Enabled = true;
+								KatFu.Visible = true;
 								continue;
 							}
 						case "Kat-ka":
 							{
-								KatKa.Enabled = true;
-								continue;
-							}
-						case "Kat-ke":
-							{
-								KatKe.Enabled = true;
+								KatKa.Visible = true;
 								continue;
 							}
 						case "Kat-o":
 							{
-								KatO.Enabled = true;
+								KatO.Visible = true;
 								continue;
 							}
 						case "Kat-ki":
 							{
-								KatKi.Enabled = true;
-								continue;
-							}
-						case "Kat-Ko":
-							{
-								KatKo.Enabled = true;
+								KatKi.Visible = true;
 								continue;
 							}
 						case "Kat-ma":
 							{
-								KatMa.Enabled = true;
-								continue;
-							}
-						case "Kat-mo":
-							{
-								KatMo.Enabled = true;
-								continue;
-							}
-						case "Kat-ne":
-							{
-								KatNe.Enabled = true;
-								continue;
-							}
-						case "Kat-ra":
-							{
-								KatRa.Enabled = true;
-								continue;
-							}
-						case "Kat-re":
-							{
-								KatRe.Enabled = true;
-								continue;
-							}
-						case "Kat-ri":
-							{
-								KatRi.Enabled = true;
+								KatMa.Visible = true;
 								continue;
 							}
 						case "Kat-ru":
 							{
-								KatRu.Enabled = true;
-								continue;
-							}
-						case "Kat-sa":
-							{
-								KatSa.Enabled = true;
+								KatRu.Visible = true;
 								continue;
 							}
 						case "Kat-se":
 							{
-								KatSe.Enabled = true;
+								KatSe.Visible = true;
 								continue;
 							}
 						case "Kat-shi":
 							{
-								KatShi.Enabled = true;
+								KatShi.Visible = true;
 								continue;
 							}
 						case "Kat-so":
 							{
-								KatSo.Enabled = true;
-								continue;
-							}
-						case "Kat-ta":
-							{
-								KatTa.Enabled = true;
+								KatSo.Visible = true;
 								continue;
 							}
 						case "Kat-te":
 							{
-								KatTe.Enabled = true;
+								KatTe.Visible = true;
 								continue;
 							}
 						case "Kat-u":
 							{
-								KatU.Enabled = true;
+								KatU.Visible = true;
 								continue;
 							}
 						case "Hir-a":
 							{
-								HirA.Enabled = true;
+								HirA.Visible = true;
 								continue;
 							}
 						case "Hir-i":
 							{
-								HirI.Enabled = true;
-								continue;
-							}
-						case "Hir-mo":
-							{
-								HirMo.Enabled = true;
+								HirI.Visible = true;
 								continue;
 							}
 						case "Hir-na":
 							{
-								HirNa.Enabled = true;
+								HirNa.Visible = true;
 								continue;
 							}
 						case "Hir-o":
 							{
-								HirO.Enabled = true;
-								continue;
-							}
-						case "Hir-sa":
-							{
-								HirSa.Enabled = true;
+								HirO.Visible = true;
 								continue;
 							}
 						case "Hir-se":
 							{
-								HirSe.Enabled = true;
+								HirSe.Visible = true;
 								continue;
 							}
 						case "Hir-so":
 							{
-								HirSo.Enabled = true;
+								HirSo.Visible = true;
 								continue;
 							}
 						case "Hir-to":
 							{
-								HirTo.Enabled = true;
-								continue;
-							}
-						case "Num-1":
-							{
-								Num1.Enabled = true;
+								HirTo.Visible = true;
 								continue;
 							}
 					}
@@ -333,13 +264,6 @@ namespace FFCC_Memories
 			}
 		}
 
-		private void KatShi_Click(object sender, MouseEventArgs e)
-		{
-			if (e.Button == MouseButtons.Left)
-				ButtonTest("Kat-shi", false);
-			if (e.Button == MouseButtons.Right)
-				ButtonTest("Kat-shi", true);
-		}
 		private void KatTe_Click(object sender, MouseEventArgs e)
 		{
 			if (e.Button == MouseButtons.Left)
@@ -361,17 +285,13 @@ namespace FFCC_Memories
 			if (e.Button == MouseButtons.Right)
 				ButtonTest("Hir-to", true);
 		}
-		private void KatRe_Click(object sender, MouseEventArgs e)
+		private void KatShi_Click(object sender, MouseEventArgs e)
 		{
-			ButtonTest("Kat-re", true);
+			ButtonTest("Kat-shi", false);
 		}
 		private void KatU_Click(object sender, MouseEventArgs e)
 		{
 			ButtonTest("Kat-u", true);
-		}
-		private void KatKo_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-ko", true);
 		}
 		private void HirA_Click(object sender, MouseEventArgs e)
 		{
@@ -405,25 +325,9 @@ namespace FFCC_Memories
 		{
 			ButtonTest("Hir-o", false);
 		}
-		private void HirSa_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Hir-sa", false);
-		}
-		private void HirMo_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Hir-mo", false);
-		}
 		private void HirNa_Click(object sender, MouseEventArgs e)
 		{
 			ButtonTest("Hir-na", false);
-		}
-		private void KatTa_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-ta", false);
-		}
-		private void KatNe_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-ne", false);
 		}
 		private void KatKa_Click(object sender, MouseEventArgs e)
 		{
@@ -433,25 +337,9 @@ namespace FFCC_Memories
 		{
 			ButtonTest("Kat-ma", false);
 		}
-		private void KatRi_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-ri", false);
-		}
-		private void KatSa_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-sa", false);
-		}
-		private void Num1_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Num-1", false);
-		}
 		private void Kanji_Click(object sender, MouseEventArgs e)
 		{
 			ButtonTest("Kanji", false);
-		}
-		private void KatRa_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-ra", false);
 		}
 		private void KatO_Click(object sender, MouseEventArgs e)
 		{
@@ -461,17 +349,9 @@ namespace FFCC_Memories
 		{
 			ButtonTest("Kat-ru", false);
 		}
-		private void KatMo_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-mo", false);
-		}
 		private void KatSo_Click(object sender, MouseEventArgs e)
 		{
 			ButtonTest("Kat-so", false);
-		}
-		private void KatKe_Click(object sender, MouseEventArgs e)
-		{
-			ButtonTest("Kat-ke", false);
 		}
 		private void reset_Click(object sender, EventArgs e)
 		{
@@ -481,5 +361,5 @@ namespace FFCC_Memories
 			nextButtons();
 			AnswerTest();
 		}
-	}
+    }
 }
