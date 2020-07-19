@@ -1,0 +1,33 @@
+Kat Ki  2 1 0 1 1
+Kat Fu  2 0 0 0 0
+Kat Te  2 0 0 0 0
+Kat A   1 0 1 2 2
+Kat Se  1 0 0 0 0
+Kat Shi 1 0 0 3 0
+Kat So  1 0 0 0 0
+Kat U   1 0 0 0 0
+Kat Ru  1 0 1 0 2
+Kat Ma  1 0 3 1 0
+Kat Ka  0 1 1 0 0
+Kat Ke  0 1 0 0 2
+Kat O   0 0 2 1 0
+Kat Ri  0 0 1 0 1
+Kat Ne  0 0 1 0 0
+Kat Ra  0 0 1 0 0
+Kat Re  0 0 1 0 0
+Kat Mo  0 0 0 2 1
+Kat Ko  0 0 0 1 1
+Kat Sa  0 0 0 1 0
+Kat Ta  0 0 0 1 0
+
+Hir A   2 3 0 0 0
+Hir To  1 2 0 0 0
+Hir I   1 0 0 0 0
+Hir So  0 3 1 1 1
+Hir Se  0 2 0 0 0
+Hir O   0 1 2 1 0
+Hir Sa  0 1 0 0 0
+Hir Mo  0 1 0 0 0
+Hir Na  0 0 3 0 0
+
+Kanji   8 5 8 9 12
