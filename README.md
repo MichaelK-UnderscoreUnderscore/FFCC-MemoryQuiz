@@ -12,5 +12,4 @@ Light Orange Buttons may get accompanied by ", Right Click those when that happe
 Leftclick the Button otherwise.
 
 
-
 Needs Newtonsoft.Json to be opened in an editor.
