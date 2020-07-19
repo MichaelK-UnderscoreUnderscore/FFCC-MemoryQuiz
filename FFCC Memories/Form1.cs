@@ -76,6 +76,7 @@ namespace FFCC_Memories
 			HirSo.Visible = false;
 			HirTo.Visible = false;
 			Kanji.Visible = false;
+			answer.Visible = false;
 		}
 
 		private void ButtonTest(string str, bool mod)
@@ -94,8 +95,14 @@ namespace FFCC_Memories
 			if (answer.Text == "?")
 			{
 				current++;
+				line.Text = (current + 1).ToString();
 				nextButtons();
 			}
+			else
+			{
+				answer.Visible = true;
+			}
+
 		}
 
 		private void AnswerTest()
@@ -131,9 +138,11 @@ namespace FFCC_Memories
 			remain.Text = (answer1 + answer2 + answer3).ToString();
 			if (answer1 + answer2 + answer3 > 0)
 			{
-				progressBar1.Value = 100 * answer1 / (answer1 + answer2 + answer3);
-				progressBar2.Value = 100 * answer2 / (answer1 + answer2 + answer3);
-				progressBar3.Value = 100 * answer3 / (answer1 + answer2 + answer3);
+				chart1.Series["Series1"].Points[0].YValues[0] = 100 * answer3 / (answer1 + answer2 + answer3);
+				chart1.Series["Series1"].Points[1].YValues[0] = 100 * answer2 / (answer1 + answer2 + answer3);
+				chart1.Series["Series1"].Points[2].YValues[0] = 100 * answer1 / (answer1 + answer2 + answer3);
+				chart1.Update();
+				chart1.Refresh();
 				answer.Text = "?";
 				if (answer1 == 0 && answer2 == 0)
 				{
@@ -358,6 +367,7 @@ namespace FFCC_Memories
 			resetButtons();
 			mem.CopyTo(temp_mem, 0);
 			current = 0;
+			line.Text = (current + 1).ToString();
 			nextButtons();
 			AnswerTest();
 		}

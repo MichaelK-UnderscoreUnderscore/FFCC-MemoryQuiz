@@ -28,17 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint10 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(3D, 1D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint11 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(2D, 1D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint12 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(1D, 1D);
             this.Kanji = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.label4 = new System.Windows.Forms.Label();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.label3 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.remain = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.answer = new System.Windows.Forms.Label();
@@ -62,16 +60,19 @@
             this.KatTe = new System.Windows.Forms.Button();
             this.KatFu = new System.Windows.Forms.Button();
             this.reset = new System.Windows.Forms.Button();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.line = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // Kanji
             // 
             this.Kanji.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Kanji.Location = new System.Drawing.Point(160, 260);
+            this.Kanji.Location = new System.Drawing.Point(10, 260);
             this.Kanji.Name = "Kanji";
-            this.Kanji.Size = new System.Drawing.Size(464, 94);
+            this.Kanji.Size = new System.Drawing.Size(445, 94);
             this.Kanji.TabIndex = 0;
             this.Kanji.Text = "Kanji";
             this.Kanji.UseVisualStyleBackColor = true;
@@ -81,7 +82,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.label1.Location = new System.Drawing.Point(279, 10);
+            this.label1.Location = new System.Drawing.Point(153, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(164, 39);
             this.label1.TabIndex = 12;
@@ -99,89 +100,18 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.progressBar3);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.progressBar2);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.progressBar1);
-            this.panel1.Location = new System.Drawing.Point(630, 260);
+            this.panel1.Controls.Add(this.remain);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Location = new System.Drawing.Point(480, 260);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(144, 94);
+            this.panel1.Size = new System.Drawing.Size(294, 94);
             this.panel1.TabIndex = 14;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label5.Location = new System.Drawing.Point(6, 65);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(20, 24);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "3";
-            // 
-            // progressBar3
-            // 
-            this.progressBar3.Location = new System.Drawing.Point(32, 65);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(100, 24);
-            this.progressBar3.Step = 1;
-            this.progressBar3.TabIndex = 4;
-            this.progressBar3.Value = 28;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label4.Location = new System.Drawing.Point(6, 35);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 24);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "2";
-            // 
-            // progressBar2
-            // 
-            this.progressBar2.Location = new System.Drawing.Point(32, 35);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(100, 24);
-            this.progressBar2.Step = 1;
-            this.progressBar2.TabIndex = 2;
-            this.progressBar2.Value = 40;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label3.Location = new System.Drawing.Point(6, 5);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(20, 24);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "1";
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(32, 5);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 24);
-            this.progressBar1.Step = 1;
-            this.progressBar1.TabIndex = 0;
-            this.progressBar1.Value = 32;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.remain);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.answer);
-            this.panel2.Location = new System.Drawing.Point(10, 260);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(144, 94);
-            this.panel2.TabIndex = 15;
             // 
             // remain
             // 
             this.remain.AutoSize = true;
             this.remain.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.remain.Location = new System.Drawing.Point(3, 16);
+            this.remain.Location = new System.Drawing.Point(12, 16);
             this.remain.Name = "remain";
             this.remain.Size = new System.Drawing.Size(44, 31);
             this.remain.TabIndex = 1;
@@ -192,7 +122,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label7.Location = new System.Drawing.Point(3, 47);
+            this.label7.Location = new System.Drawing.Point(12, 47);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 31);
             this.label7.TabIndex = 2;
@@ -202,13 +132,14 @@
             // answer
             // 
             this.answer.AutoSize = true;
-            this.answer.Font = new System.Drawing.Font("Microsoft Sans Serif", 54F);
-            this.answer.Location = new System.Drawing.Point(66, 6);
+            this.answer.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.answer.Location = new System.Drawing.Point(345, 96);
             this.answer.Name = "answer";
-            this.answer.Size = new System.Drawing.Size(75, 82);
+            this.answer.Size = new System.Drawing.Size(98, 108);
             this.answer.TabIndex = 0;
             this.answer.Text = "?";
             this.answer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer.Visible = false;
             // 
             // KatKa
             // 
@@ -276,7 +207,7 @@
             this.HirNa.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HirNa.Image = global::FFCC_Memories.Properties.Resources.Hir_na;
             this.HirNa.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.HirNa.Location = new System.Drawing.Point(628, 160);
+            this.HirNa.Location = new System.Drawing.Point(630, 160);
             this.HirNa.Name = "HirNa";
             this.HirNa.Size = new System.Drawing.Size(144, 44);
             this.HirNa.TabIndex = 22;
@@ -444,7 +375,7 @@
             this.KatMa.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KatMa.Image = global::FFCC_Memories.Properties.Resources.Kat_ma;
             this.KatMa.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.KatMa.Location = new System.Drawing.Point(12, 160);
+            this.KatMa.Location = new System.Drawing.Point(10, 160);
             this.KatMa.Name = "KatMa";
             this.KatMa.Size = new System.Drawing.Size(144, 44);
             this.KatMa.TabIndex = 4;
@@ -511,15 +442,91 @@
             this.reset.UseVisualStyleBackColor = true;
             this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
+            // chart1
+            // 
+            this.chart1.BackColor = System.Drawing.Color.Transparent;
+            chartArea4.AxisX.IsLabelAutoFit = false;
+            chartArea4.AxisX.IsMarginVisible = false;
+            chartArea4.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea4.AxisX.LineColor = System.Drawing.Color.Transparent;
+            chartArea4.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea4.AxisX.LineWidth = 0;
+            chartArea4.AxisX.MajorGrid.Enabled = false;
+            chartArea4.AxisX.MaximumAutoSize = 100F;
+            chartArea4.AxisX2.IsLabelAutoFit = false;
+            chartArea4.AxisX2.LineColor = System.Drawing.Color.Transparent;
+            chartArea4.AxisX2.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea4.AxisX2.LineWidth = 0;
+            chartArea4.AxisY.IsMarginVisible = false;
+            chartArea4.AxisY.LabelStyle.Enabled = false;
+            chartArea4.AxisY.LineColor = System.Drawing.Color.Transparent;
+            chartArea4.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea4.AxisY.LineWidth = 0;
+            chartArea4.AxisY.MajorGrid.Enabled = false;
+            chartArea4.AxisY.MajorTickMark.Enabled = false;
+            chartArea4.AxisY.Maximum = 100D;
+            chartArea4.AxisY.MaximumAutoSize = 1F;
+            chartArea4.AxisY.Minimum = 0D;
+            chartArea4.AxisY2.IsMarginVisible = false;
+            chartArea4.AxisY2.LineColor = System.Drawing.Color.Transparent;
+            chartArea4.AxisY2.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea4.AxisY2.LineWidth = 0;
+            chartArea4.AxisY2.MajorGrid.Enabled = false;
+            chartArea4.AxisY2.MajorTickMark.Enabled = false;
+            chartArea4.BackColor = System.Drawing.SystemColors.Control;
+            chartArea4.BorderColor = System.Drawing.SystemColors.Control;
+            chartArea4.BorderWidth = 0;
+            chartArea4.CursorX.AutoScroll = false;
+            chartArea4.CursorY.AutoScroll = false;
+            chartArea4.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea4);
+            this.chart1.Location = new System.Drawing.Point(540, 262);
+            this.chart1.Name = "chart1";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
+            series4.IsVisibleInLegend = false;
+            series4.IsXValueIndexed = true;
+            series4.Name = "Series1";
+            series4.Points.Add(dataPoint10);
+            series4.Points.Add(dataPoint11);
+            series4.Points.Add(dataPoint12);
+            this.chart1.Series.Add(series4);
+            this.chart1.Size = new System.Drawing.Size(232, 90);
+            this.chart1.TabIndex = 38;
+            this.chart1.Text = "chart1";
+            // 
+            // line
+            // 
+            this.line.AutoSize = true;
+            this.line.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.line.Location = new System.Drawing.Point(452, 16);
+            this.line.Name = "line";
+            this.line.Size = new System.Drawing.Size(29, 31);
+            this.line.TabIndex = 39;
+            this.line.Text = "1";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.label4.Location = new System.Drawing.Point(382, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 31);
+            this.label4.TabIndex = 40;
+            this.label4.Text = "Line:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(784, 364);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.line);
+            this.Controls.Add(this.chart1);
             this.Controls.Add(this.reset);
+            this.Controls.Add(this.answer);
             this.Controls.Add(this.KatKa);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.KatO);
             this.Controls.Add(this.KatRu);
             this.Controls.Add(this.KatU);
@@ -547,8 +554,7 @@
             this.Text = "Final Fantasy Crystal Chronicles - Memory Cheat Quiz";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -569,13 +575,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ProgressBar progressBar3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ProgressBar progressBar2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label remain;
         private System.Windows.Forms.Label answer;
         private System.Windows.Forms.Button HirA;
@@ -590,6 +589,9 @@
         private System.Windows.Forms.Button KatKa;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button reset;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Label line;
+        private System.Windows.Forms.Label label4;
     }
 }
 
