@@ -1,0 +1,965 @@
+﻿{
+	"memories" : [
+		{
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-a",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ma",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-shi",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ru",
+					"Mod" : false
+				}
+			],
+			"image" : "L1-1.png",
+			"answer" : 1
+		},
+		{
+			"image" : "L1-2.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kat-ki",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Hir-so",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Hir-so",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Hir-so",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L1-3.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-fu",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-se",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Hir-o",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Hir-o",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L1-4.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L1-5.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-te",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-a",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-a",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-a",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L2-1.png",
+			"answer" : 3,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-se",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-so",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ra",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-sa",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ke",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L2-2.png",
+			"answer" : 3,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-ma",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-sa",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L2-3.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Hir-a",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ka",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L2-4.png",
+			"answer" : 3,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-na",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-o",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-ki",
+					"Mod" : true
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ko",
+					"Mod" : true
+				}
+			]
+		},
+		{
+			"image" : "L2-5.png",
+			"answer" : 3,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-so",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-to",
+					"Mod" : true
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-shi",
+					"Mod" : true
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L3-1.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-ki",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-na",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ne",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-mo",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-mo",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L3-2.png",
+			"answer" : 3,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-te",
+					"Mod" : true
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-so",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-o",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-ko",
+					"Mod" : true
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ri",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L3-3.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-ki",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-a",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L3-4.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-to",
+					"Mod" : true
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ma",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-a",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ki",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L3-5.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-na",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L4-1.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Hir-a",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kat-ka",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ri",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-o",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ke",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L4-2.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Hir-to",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ru",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-ma",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-a",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L4-3.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-o",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L4-4.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-u",
+					"Mod" : true
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L4-5.png",
+			"answer" : 3,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Hir-i",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-a",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L5-1.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-a",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kat-ke",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-ma",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-shi",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ru",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L5-2.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-so",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kat-re",
+					"Mod" : true
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-mo",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L5-3.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-fu",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-se",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Hir-o",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L5-4.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-ru",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-mo",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Num-1",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Num-1",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Num-1",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "L5-5.png",
+			"answer" : 3,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-shi",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Num-1",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kat-ta",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ru",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "AD1.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-a",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "AD2.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-a",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kat-ma",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "AD3.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-na",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "AD4.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "AD5.png",
+			"answer" : 2,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-Ru",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Hir-i",
+					"Mod" : false
+				}
+			]
+		},
+		{
+			"image" : "AD6.png",
+			"answer" : 1,
+			"buttons" : [
+				{
+					"id" :  0,
+					"Name" : "Kat-a",
+					"Mod" : false
+				},
+				{
+					"id" :  1,
+					"Name" : "Hir-a",
+					"Mod" : false
+				},
+				{
+					"id" :  2,
+					"Name" : "Kanji",
+					"Mod" : false
+				},
+				{
+					"id" :  3,
+					"Name" : "Hir-so",
+					"Mod" : false
+				},
+				{
+					"id" :  4,
+					"Name" : "Kanji",
+					"Mod" : false
+				}
+			]
+		}
+	]
+}

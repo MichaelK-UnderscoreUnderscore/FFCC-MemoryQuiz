@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(3D, 1D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(2D, 1D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(1D, 1D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint7 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(3D, 1D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint8 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(2D, 1D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint9 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(1D, 1D);
             this.Kanji = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -63,6 +63,8 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.line = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.radioAny = new System.Windows.Forms.RadioButton();
+            this.radioADAC = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
@@ -445,52 +447,52 @@
             // chart1
             // 
             this.chart1.BackColor = System.Drawing.Color.Transparent;
-            chartArea1.AxisX.IsLabelAutoFit = false;
-            chartArea1.AxisX.IsMarginVisible = false;
-            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea1.AxisX.LineColor = System.Drawing.Color.Transparent;
-            chartArea1.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
-            chartArea1.AxisX.LineWidth = 0;
-            chartArea1.AxisX.MajorGrid.Enabled = false;
-            chartArea1.AxisX.MaximumAutoSize = 100F;
-            chartArea1.AxisX2.IsLabelAutoFit = false;
-            chartArea1.AxisX2.LineColor = System.Drawing.Color.Transparent;
-            chartArea1.AxisX2.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
-            chartArea1.AxisX2.LineWidth = 0;
-            chartArea1.AxisY.IsMarginVisible = false;
-            chartArea1.AxisY.LabelStyle.Enabled = false;
-            chartArea1.AxisY.LineColor = System.Drawing.Color.Transparent;
-            chartArea1.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
-            chartArea1.AxisY.LineWidth = 0;
-            chartArea1.AxisY.MajorGrid.Enabled = false;
-            chartArea1.AxisY.MajorTickMark.Enabled = false;
-            chartArea1.AxisY.Maximum = 100D;
-            chartArea1.AxisY.MaximumAutoSize = 1F;
-            chartArea1.AxisY.Minimum = 0D;
-            chartArea1.AxisY2.IsMarginVisible = false;
-            chartArea1.AxisY2.LineColor = System.Drawing.Color.Transparent;
-            chartArea1.AxisY2.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
-            chartArea1.AxisY2.LineWidth = 0;
-            chartArea1.AxisY2.MajorGrid.Enabled = false;
-            chartArea1.AxisY2.MajorTickMark.Enabled = false;
-            chartArea1.BackColor = System.Drawing.SystemColors.Control;
-            chartArea1.BorderColor = System.Drawing.SystemColors.Control;
-            chartArea1.BorderWidth = 0;
-            chartArea1.CursorX.AutoScroll = false;
-            chartArea1.CursorY.AutoScroll = false;
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            chartArea3.AxisX.IsLabelAutoFit = false;
+            chartArea3.AxisX.IsMarginVisible = false;
+            chartArea3.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea3.AxisX.LineColor = System.Drawing.Color.Transparent;
+            chartArea3.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea3.AxisX.LineWidth = 0;
+            chartArea3.AxisX.MajorGrid.Enabled = false;
+            chartArea3.AxisX.MaximumAutoSize = 100F;
+            chartArea3.AxisX2.IsLabelAutoFit = false;
+            chartArea3.AxisX2.LineColor = System.Drawing.Color.Transparent;
+            chartArea3.AxisX2.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea3.AxisX2.LineWidth = 0;
+            chartArea3.AxisY.IsMarginVisible = false;
+            chartArea3.AxisY.LabelStyle.Enabled = false;
+            chartArea3.AxisY.LineColor = System.Drawing.Color.Transparent;
+            chartArea3.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea3.AxisY.LineWidth = 0;
+            chartArea3.AxisY.MajorGrid.Enabled = false;
+            chartArea3.AxisY.MajorTickMark.Enabled = false;
+            chartArea3.AxisY.Maximum = 100D;
+            chartArea3.AxisY.MaximumAutoSize = 1F;
+            chartArea3.AxisY.Minimum = 0D;
+            chartArea3.AxisY2.IsMarginVisible = false;
+            chartArea3.AxisY2.LineColor = System.Drawing.Color.Transparent;
+            chartArea3.AxisY2.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
+            chartArea3.AxisY2.LineWidth = 0;
+            chartArea3.AxisY2.MajorGrid.Enabled = false;
+            chartArea3.AxisY2.MajorTickMark.Enabled = false;
+            chartArea3.BackColor = System.Drawing.SystemColors.Control;
+            chartArea3.BorderColor = System.Drawing.SystemColors.Control;
+            chartArea3.BorderWidth = 0;
+            chartArea3.CursorX.AutoScroll = false;
+            chartArea3.CursorY.AutoScroll = false;
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
             this.chart1.Location = new System.Drawing.Point(540, 262);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
-            series1.IsVisibleInLegend = false;
-            series1.IsXValueIndexed = true;
-            series1.Name = "Series1";
-            series1.Points.Add(dataPoint1);
-            series1.Points.Add(dataPoint2);
-            series1.Points.Add(dataPoint3);
-            this.chart1.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
+            series3.IsVisibleInLegend = false;
+            series3.IsXValueIndexed = true;
+            series3.Name = "Series1";
+            series3.Points.Add(dataPoint7);
+            series3.Points.Add(dataPoint8);
+            series3.Points.Add(dataPoint9);
+            this.chart1.Series.Add(series3);
             this.chart1.Size = new System.Drawing.Size(232, 90);
             this.chart1.TabIndex = 38;
             this.chart1.Text = "chart1";
@@ -515,12 +517,38 @@
             this.label4.TabIndex = 40;
             this.label4.Text = "Line:";
             // 
+            // radioAny
+            // 
+            this.radioAny.AutoSize = true;
+            this.radioAny.Checked = true;
+            this.radioAny.Location = new System.Drawing.Point(14, 40);
+            this.radioAny.Name = "radioAny";
+            this.radioAny.Size = new System.Drawing.Size(51, 17);
+            this.radioAny.TabIndex = 41;
+            this.radioAny.TabStop = true;
+            this.radioAny.Text = "Any%";
+            this.radioAny.UseVisualStyleBackColor = true;
+            this.radioAny.CheckedChanged += new System.EventHandler(this.radioAny_CheckedChanged);
+            // 
+            // radioADAC
+            // 
+            this.radioADAC.AutoSize = true;
+            this.radioADAC.Location = new System.Drawing.Point(71, 40);
+            this.radioADAC.Name = "radioADAC";
+            this.radioADAC.Size = new System.Drawing.Size(59, 17);
+            this.radioADAC.TabIndex = 42;
+            this.radioADAC.TabStop = true;
+            this.radioADAC.Text = "AD/AC";
+            this.radioADAC.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(784, 364);
+            this.Controls.Add(this.radioADAC);
+            this.Controls.Add(this.radioAny);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.line);
             this.Controls.Add(this.chart1);
@@ -592,6 +620,8 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.Label line;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton radioADAC;
+        private System.Windows.Forms.RadioButton radioAny;
     }
 }
 

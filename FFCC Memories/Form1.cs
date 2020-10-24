@@ -18,8 +18,8 @@ namespace FFCC_Memories
 	public partial class Form1 : Form
 	{
 		
-		private Memories[] mem = new Memories[25];
-		private Memories[] temp_mem = new Memories[25];
+		private Memories[] mem = new Memories[32];
+		private Memories[] temp_mem = new Memories[32];
 		private int current = 0;
 		private int answer1 = 0;
 		private int answer2 = 0;
@@ -36,7 +36,16 @@ namespace FFCC_Memories
 
 		private void LoadData()
 		{
-			JObject jobj1 = JObject.Parse(File.ReadAllText("FFCC-Any.json"));
+			string jFile = "";
+			if (radioAny.Checked)
+            {
+				jFile = "FFCC-Any.json";
+			} else if (radioADAC.Checked)
+            {
+				jFile = "FFCC-ADAC.json";
+			}
+
+			JObject jobj1 = JObject.Parse(File.ReadAllText(jFile));
 			int i = 0;
 
 			foreach (JObject jobj2 in jobj1["memories"])
@@ -370,6 +379,18 @@ namespace FFCC_Memories
 			line.Text = (current + 1).ToString();
 			nextButtons();
 			AnswerTest();
+		}
+
+        private void radioAny_CheckedChanged(object sender, EventArgs e)
+		{
+			resetButtons();
+			mem = new Memories[32];
+			temp_mem = new Memories[32];
+			current = 0;
+			line.Text = (current + 1).ToString();
+			LoadData();
+			AnswerTest();
+			nextButtons();
 		}
     }
 }
