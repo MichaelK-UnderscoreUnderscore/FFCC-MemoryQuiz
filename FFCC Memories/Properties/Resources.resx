@@ -118,80 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Hir-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-i.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-mo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-na" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-na.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-o" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-sa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-se" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-se.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-so" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-so.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hir-to" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Hir-to.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kat-ka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-ka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kat-fu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Letters\Kat-fu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kat-ka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-ke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-ki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-ko" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Kat-ma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Letters\Kat-ma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kat-mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-mo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kat-u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-u.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kat-ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ne.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-o" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-ra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-re" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-re.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-ri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ru.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-sa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kat-se" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-se.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kat_ra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\letters\kat-ra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kat-shi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Letters\Kat-shi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,19 +139,94 @@
   <data name="Kat-so" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Letters\Kat-so.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kat-ta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-ta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hir-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kat-te" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-te.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kat-se" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-se.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kat-u" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Letters\Kat-u.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hir-so" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-so.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir-to" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-to.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir_te" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\hir-te.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat_re" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\letters\kat-re.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-mo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat_ni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\kat-ni.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat_ri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\letters\kat-ri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir-se" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-se.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir-sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-sa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat_ha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\kat-ha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-ne.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir-o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Mod" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Letters\Mod.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Kat-ta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-ta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir-na" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-na.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir_ta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\hir-ta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-ke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-ke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Num-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Letters\Num-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-sa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-ki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-ki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-te" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-te.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir-mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-mo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat_ko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\letters\kat-ko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-ru.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hir-i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Hir-i.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kat-ke1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Letters\Kat-ke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

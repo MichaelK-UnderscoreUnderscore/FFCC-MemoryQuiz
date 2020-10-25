@@ -105,16 +105,10 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <None Include="FFCC Memories_TemporaryKey.pfx" />
     <None Include="FFCC-Any.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -124,6 +118,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -138,27 +137,81 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Letters\Hir-a.jpg" />
+    <Content Include="Letters\Hir-chi.jpg" />
+    <Content Include="Letters\Hir-e.jpg" />
+    <Content Include="Letters\Hir-fu.jpg" />
+    <Content Include="Letters\Hir-ha.jpg" />
+    <Content Include="Letters\Hir-he.jpg" />
+    <Content Include="Letters\Hir-hi.jpg" />
+    <Content Include="Letters\Hir-ho.jpg" />
     <Content Include="Letters\Hir-i.jpg" />
+    <Content Include="Letters\Hir-ka.jpg" />
+    <Content Include="Letters\Hir-ke.jpg" />
+    <Content Include="Letters\Hir-ki.jpg" />
+    <Content Include="Letters\Hir-ko.jpg" />
+    <Content Include="Letters\Hir-ku.jpg" />
+    <Content Include="Letters\Hir-ma.jpg" />
+    <Content Include="Letters\Hir-me.jpg" />
+    <Content Include="Letters\Hir-mi.jpg" />
     <Content Include="Letters\Hir-mo.jpg" />
+    <Content Include="Letters\Hir-mu.jpg" />
+    <Content Include="Letters\Hir-n.jpg" />
     <Content Include="Letters\Hir-na.jpg" />
+    <Content Include="Letters\Hir-ne.jpg" />
+    <Content Include="Letters\Hir-ni.jpg" />
+    <Content Include="Letters\Hir-no.jpg" />
+    <Content Include="Letters\Hir-nu.jpg" />
     <Content Include="Letters\Hir-o.jpg" />
+    <Content Include="Letters\Hir-ra.jpg" />
+    <Content Include="Letters\Hir-re.jpg" />
+    <Content Include="Letters\Hir-ri.jpg" />
+    <Content Include="Letters\Hir-ro.jpg" />
+    <Content Include="Letters\Hir-ru.jpg" />
     <Content Include="Letters\Hir-sa.jpg" />
     <Content Include="Letters\Hir-se.jpg" />
+    <Content Include="Letters\Hir-shi.jpg" />
     <Content Include="Letters\Hir-so.jpg" />
+    <Content Include="Letters\Hir-su.jpg" />
+    <Content Include="Letters\Hir-ta.jpg" />
+    <Content Include="Letters\Hir-te.jpg" />
     <Content Include="Letters\Hir-to.jpg" />
+    <Content Include="Letters\Hir-tsu.jpg" />
+    <Content Include="Letters\Hir-u.jpg" />
+    <Content Include="Letters\Hir-wa.jpg" />
+    <Content Include="Letters\Hir-wo.jpg" />
+    <Content Include="Letters\Hir-ya.jpg" />
+    <Content Include="Letters\Hir-yo.jpg" />
+    <Content Include="Letters\Hir-yu.jpg" />
     <Content Include="Letters\Kat-a.jpg" />
+    <Content Include="Letters\Kat-chi.jpg" />
+    <Content Include="Letters\Kat-e.jpg" />
     <Content Include="Letters\Kat-fu.jpg" />
+    <Content Include="Letters\Kat-ha.jpg" />
+    <Content Include="Letters\Kat-he.jpg" />
+    <Content Include="Letters\Kat-hi.jpg" />
+    <Content Include="Letters\Kat-ho.jpg" />
+    <Content Include="Letters\Kat-i.jpg" />
     <Content Include="Letters\Kat-ka.jpg" />
     <Content Include="Letters\Kat-ke.jpg" />
     <Content Include="Letters\Kat-ki.jpg" />
     <Content Include="Letters\Kat-ko.jpg" />
+    <Content Include="Letters\Kat-ku.jpg" />
     <Content Include="Letters\Kat-ma.jpg" />
+    <Content Include="Letters\Kat-me.jpg" />
+    <Content Include="Letters\Kat-mi.jpg" />
     <Content Include="Letters\Kat-mo.jpg" />
+    <Content Include="Letters\Kat-mu.jpg" />
+    <Content Include="Letters\Kat-n.jpg" />
+    <Content Include="Letters\Kat-na.jpg" />
     <Content Include="Letters\Kat-ne.jpg" />
+    <Content Include="Letters\Kat-ni.jpg" />
+    <Content Include="Letters\Kat-no.jpg" />
+    <Content Include="Letters\Kat-nu.jpg" />
     <Content Include="Letters\Kat-o.jpg" />
     <Content Include="Letters\Kat-ra.jpg" />
     <Content Include="Letters\Kat-re.jpg" />
     <Content Include="Letters\Kat-ri.jpg" />
+    <Content Include="Letters\Kat-ro.jpg" />
     <Content Include="Letters\Kat-ru.jpg" />
     <Content Include="Letters\Kat-sa.jpg" />
     <Content Include="Letters\Kat-se.jpg" />
@@ -166,7 +219,14 @@
     <Content Include="Letters\Kat-so.jpg" />
     <Content Include="Letters\Kat-ta.jpg" />
     <Content Include="Letters\Kat-te.jpg" />
+    <Content Include="Letters\Kat-to.jpg" />
+    <Content Include="Letters\Kat-tsu.jpg" />
     <Content Include="Letters\Kat-u.jpg" />
+    <Content Include="Letters\Kat-wa.jpg" />
+    <Content Include="Letters\Kat-wo.jpg" />
+    <Content Include="Letters\Kat-ya.jpg" />
+    <Content Include="Letters\Kat-yo.jpg" />
+    <Content Include="Letters\Kat-yu.jpg" />
     <Content Include="Letters\Mod.jpg" />
     <Content Include="Letters\Num-1.jpg" />
     <Content Include="Memories\L1-1.png" />

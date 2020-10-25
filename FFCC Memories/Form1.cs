@@ -17,9 +17,10 @@ namespace FFCC_Memories
 
 	public partial class Form1 : Form
 	{
-		
-		private Memories[] mem = new Memories[32];
-		private Memories[] temp_mem = new Memories[32];
+		static int memMax = 40;
+
+		private Memories[] mem = new Memories[memMax];
+		private Memories[] temp_mem = new Memories[memMax];
 		private int current = 0;
 		private int answer1 = 0;
 		private int answer2 = 0;
@@ -68,14 +69,22 @@ namespace FFCC_Memories
 			KatA.Visible = false;
 			KatFu.Visible = false;
 			KatKa.Visible = false;
+			KatKe.Visible = false;
 			KatKi.Visible = false;
+			KatKo.Visible = false;
 			KatMa.Visible = false;
 			KatO.Visible = false;
 			KatRu.Visible = false;
+			KatRi.Visible = false;
+			KatRe.Visible = false;
+			KatRa.Visible = false;
 			KatSe.Visible = false;
 			KatShi.Visible = false;
 			KatSo.Visible = false;
+			KatSa.Visible = false;
+			KatNi.Visible = false;
 			KatTe.Visible = false;
+			KatHa.Visible = false;
 			KatU.Visible = false;
 			HirA.Visible = false;
 			HirI.Visible = false;
@@ -84,6 +93,8 @@ namespace FFCC_Memories
 			HirSe.Visible = false;
 			HirSo.Visible = false;
 			HirTo.Visible = false;
+			HirTa.Visible = false;
+			HirTe.Visible = false;
 			Kanji.Visible = false;
 			answer.Visible = false;
 		}
@@ -197,6 +208,11 @@ namespace FFCC_Memories
 								KatKa.Visible = true;
 								continue;
 							}
+						case "Kat-ke":
+							{
+								KatKe.Visible = true;
+								continue;
+							}
 						case "Kat-o":
 							{
 								KatO.Visible = true;
@@ -242,6 +258,41 @@ namespace FFCC_Memories
 								KatU.Visible = true;
 								continue;
 							}
+						case "Kat-ha":
+							{
+								KatHa.Visible = true;
+								continue;
+							}
+						case "Kat-sa":
+							{
+								KatSa.Visible = true;
+								continue;
+							}
+						case "Kat-ri":
+							{
+								KatRi.Visible = true;
+								continue;
+							}
+						case "Kat-re":
+							{
+								KatRe.Visible = true;
+								continue;
+							}
+						case "Kat-ra":
+							{
+								KatRa.Visible = true;
+								continue;
+							}
+						case "Kat-ni":
+							{
+								KatNi.Visible = true;
+								continue;
+							}
+						case "Kat-ko":
+							{
+								KatKo.Visible = true;
+								continue;
+							}
 						case "Hir-a":
 							{
 								HirA.Visible = true;
@@ -275,6 +326,16 @@ namespace FFCC_Memories
 						case "Hir-to":
 							{
 								HirTo.Visible = true;
+								continue;
+							}
+						case "Hir-ta":
+							{
+								HirTa.Visible = true;
+								continue;
+							}
+						case "Hir-te":
+							{
+								HirTe.Visible = true;
 								continue;
 							}
 					}
@@ -371,6 +432,46 @@ namespace FFCC_Memories
 		{
 			ButtonTest("Kat-so", false);
 		}
+        private void KatHa_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Kat-ha", true);
+		}
+        private void KatSa_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Kat-sa", false);
+		}
+        private void KatRi_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Kat-ri", false);
+		}
+        private void KatRe_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Kat-re", false);
+		}
+        private void KatRa_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Kat-ra", false);
+		}
+        private void KatKo_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Kat-ko", false);
+		}
+        private void KatNi_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Kat-ni", false);
+		}
+        private void HirTa_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Hir-ta", true);
+		}
+        private void HirTe_Click(object sender, MouseEventArgs e)
+        {
+			ButtonTest("Hir-te", false);
+		}
+		private void KatKe_Click(object sender, MouseEventArgs e)
+		{
+			ButtonTest("Kat-ke", false);
+		}
 		private void reset_Click(object sender, EventArgs e)
 		{
 			resetButtons();
@@ -380,17 +481,16 @@ namespace FFCC_Memories
 			nextButtons();
 			AnswerTest();
 		}
-
-        private void radioAny_CheckedChanged(object sender, EventArgs e)
+		private void radioAny_CheckedChanged(object sender, EventArgs e)
 		{
 			resetButtons();
-			mem = new Memories[32];
-			temp_mem = new Memories[32];
+			mem = new Memories[memMax];
+			temp_mem = new Memories[memMax];
 			current = 0;
 			line.Text = (current + 1).ToString();
 			LoadData();
 			AnswerTest();
 			nextButtons();
 		}
-    }
+	}
 }
